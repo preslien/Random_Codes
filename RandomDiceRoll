@@ -1,0 +1,20 @@
+/* A Java code that outputs a random dice roll for 2 dice and outputs each dice number and the total roll. */
+
+public class RandomDiceRoll {
+
+public static void main(String[] args) {
+
+	int dice1;
+	int dice2;
+	int totalRoll;
+	dice1 = (int)(Math.random()*6) + 1;
+	dice2 = (int)(Math.random()*6) + 1;
+	totalRoll = dice1 + dice2;
+	
+	System.out.println("The first dice number is " + dice1);
+	System.out.println("The second dice number is " + dice2);
+	System.out.println("The total roll is " + totalRoll);
+
+}
+
+}
